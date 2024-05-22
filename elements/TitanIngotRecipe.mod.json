@@ -1,0 +1,22 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "mod",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawTitanOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TitanIngot"
+    },
+    "name": "titan_ingot",
+    "namespace": "mod"
+  }
+}

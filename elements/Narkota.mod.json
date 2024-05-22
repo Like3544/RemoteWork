@@ -1,0 +1,11 @@
+{
+  "_fv": 60,
+  "_type": "tab",
+  "definition": {
+    "name": "Наркота",
+    "icon": {
+      "value": "CUSTOM:GasFurnace"
+    },
+    "showSearch": true
+  }
+}

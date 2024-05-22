@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "narkoti:block/tin_ore",
+    "particle": "narkoti:block/tin_ore"
+  },
+  "render_type": "solid"
+}

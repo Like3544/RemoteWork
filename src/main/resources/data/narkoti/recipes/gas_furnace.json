@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mod",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "narkoti:titan_ingot"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "narkoti:smelted_iron_ingot"
+    },
+    "d": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "narkoti:gas_furnace",
+    "count": 1
+  }
+}

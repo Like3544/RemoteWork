@@ -1,0 +1,12 @@
+{
+  "type": "narkoti:gas_fur",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "narkoti:c_bucket",
+    "count": 1
+  }
+}

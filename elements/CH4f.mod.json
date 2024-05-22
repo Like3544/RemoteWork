@@ -1,0 +1,45 @@
+{
+  "_fv": 60,
+  "_type": "fluid",
+  "definition": {
+    "name": "CH4",
+    "bucketName": "Ведро метана",
+    "textureStill": "c_gas",
+    "textureFlowing": "c_gas",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 1,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "FALLING_HONEY"
+    },
+    "flowStrength": 0.0,
+    "luminosity": 0,
+    "density": 0,
+    "viscosity": 0,
+    "temperature": 0,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 0.0,
+    "luminance": 0,
+    "lightOpacity": 0,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

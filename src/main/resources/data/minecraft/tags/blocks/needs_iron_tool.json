@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "narkoti:electric_gas_furnace",
+    "narkoti:solar_panel_5",
+    "narkoti:solar_panel_4",
+    "narkoti:solar_panel_3",
+    "narkoti:solar_panel_2",
+    "narkoti:solar_panel_1",
+    "narkoti:redstone_battery",
+    "narkoti:anti_laser_block",
+    "narkoti:gas_furnace"
+  ]
+}

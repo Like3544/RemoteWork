@@ -1,0 +1,9 @@
+{
+  "parent": "narkoti:custom/gas_balon",
+  "textures": {
+    "all": "narkoti:block/texture1",
+    "particle": "narkoti:block/texture1",
+    "0": "narkoti:block/decoratetextureatlas"
+  },
+  "render_type": "cutout"
+}

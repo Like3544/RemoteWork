@@ -1,0 +1,12 @@
+{
+  "type": "narkoti:egfjei",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_crystals"
+    }
+  ],
+  "output": {
+    "item": "narkoti:cl_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "narkoti:block/purple_lamp"
+    },
+    "facing=east": {
+      "model": "narkoti:block/purple_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "narkoti:block/purple_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "narkoti:block/purple_lamp",
+      "y": 270
+    }
+  }
+}

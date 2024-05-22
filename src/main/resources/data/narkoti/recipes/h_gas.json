@@ -1,0 +1,12 @@
+{
+  "type": "narkoti:egfjei",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "output": {
+    "item": "narkoti:h_bucket",
+    "count": 1
+  }
+}

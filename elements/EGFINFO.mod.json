@@ -1,0 +1,15 @@
+{
+  "_fv": 60,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:ElectricGasFurnace"
+      }
+    ],
+    "information": [
+      "Принцип работы похож на Газовую печь, только вот эта",
+      "работает в 2 раза быстрее, потребляет 1FE/тик."
+    ]
+  }
+}

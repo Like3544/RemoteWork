@@ -1,0 +1,31 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "egf_jei.png",
+    "width": 176,
+    "height": 71,
+    "icon": {
+      "value": "CUSTOM:ElectricGasFurnace"
+    },
+    "craftingtable": {
+      "value": "CUSTOM:ElectricGasFurnace"
+    },
+    "enableCraftingtable": true,
+    "title": "Электрическая газовая печь",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 79,
+        "y": 27,
+        "slotid": 0
+      },
+      {
+        "type": "OUTPUT",
+        "x": 79,
+        "y": 0,
+        "slotid": 0
+      }
+    ]
+  }
+}

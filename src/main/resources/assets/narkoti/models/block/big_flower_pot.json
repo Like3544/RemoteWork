@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "narkoti:block/big_pot_buttom",
+    "up": "narkoti:block/podzol_top",
+    "north": "narkoti:block/big_pot",
+    "east": "narkoti:block/big_pot",
+    "south": "narkoti:block/big_pot",
+    "west": "narkoti:block/big_pot",
+    "particle": "narkoti:block/big_pot_buttom"
+  },
+  "render_type": "solid"
+}

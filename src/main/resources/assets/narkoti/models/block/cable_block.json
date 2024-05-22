@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "narkoti:block/cable",
+    "particle": "narkoti:block/cable"
+  },
+  "render_type": "solid"
+}

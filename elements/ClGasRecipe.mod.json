@@ -1,0 +1,16 @@
+{
+  "_fv": 60,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "gas_fur",
+    "result": {
+      "value": "CUSTOM:Cl.bucket"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.PRISMARINE_CRYSTALS"
+      }
+    ]
+  }
+}

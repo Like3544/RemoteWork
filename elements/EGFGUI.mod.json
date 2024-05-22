@@ -1,0 +1,115 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_eliektrichieskaia_ghazovaia_piech",
+          "text": {
+            "fixedValue": "Электрическая газовая печь"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 40
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 204,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "tryba_up.png",
+          "use1Xscale": false,
+          "x": 205,
+          "y": 54
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electro_light_off.png",
+          "use1Xscale": false,
+          "x": 204,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "electro_light_on.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "TestWorkState"
+          },
+          "x": 204,
+          "y": 91
+        }
+      },
+      {
+        "type": "tooltip",
+        "data": {
+          "name": "tooltip_empty",
+          "text": {
+            "fixedValue": "",
+            "name": "EnergyValue"
+          },
+          "width": 12,
+          "height": 17,
+          "x": 206,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_progress_percentage",
+          "text": {
+            "fixedValue": "",
+            "name": "ProgressPercentage"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 56
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

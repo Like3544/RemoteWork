@@ -1,0 +1,66 @@
+{
+  "deagle-shot": {
+    "sounds": [
+      {
+        "name": "narkoti:deagle-shoot",
+        "stream": false
+      }
+    ]
+  },
+  "deagle-reload": {
+    "sounds": [
+      {
+        "name": "narkoti:deagle-reload",
+        "stream": false
+      }
+    ]
+  },
+  "deagle-noammo": {
+    "sounds": [
+      {
+        "name": "narkoti:deagle-no-ammo",
+        "stream": false
+      }
+    ]
+  },
+  "ak47reload": {
+    "sounds": [
+      {
+        "name": "narkoti:ak-47-reload",
+        "stream": false
+      }
+    ]
+  },
+  "ak47shot": {
+    "sounds": [
+      {
+        "name": "narkoti:ak-47-shoot",
+        "stream": false
+      }
+    ]
+  },
+  "ak47deploy": {
+    "sounds": [
+      {
+        "name": "narkoti:ak-47-deploy",
+        "stream": false
+      }
+    ]
+  },
+  "prototype-reload": {
+    "sounds": [
+      {
+        "name": "narkoti:prototype1-reload",
+        "stream": false
+      }
+    ]
+  },
+  "prototype-shot": {
+    "sounds": [
+      {
+        "name": "narkoti:prototype1-shot",
+        "stream": false
+      }
+    ]
+  }
+}

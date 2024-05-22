@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "d d"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather_helmet"
+    },
+    "b": {
+      "item": "narkoti:titan_ingot"
+    },
+    "c": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "d": {
+      "item": "narkoti:battery_e"
+    }
+  },
+  "result": {
+    "item": "narkoti:night_vision_helmet_helmet",
+    "count": 1
+  }
+}

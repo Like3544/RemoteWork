@@ -1,0 +1,12 @@
+{
+  "type": "narkoti:egfjei",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "narkoti:c_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "mod",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      },
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      },
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      },
+      {
+        "value": "Blocks.GLASS"
+      },
+      {
+        "value": "CUSTOM:SmeltedIronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GasBalon"
+    },
+    "name": "gas_balon",
+    "namespace": "mod"
+  }
+}

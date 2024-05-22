@@ -1,0 +1,6 @@
+{
+  "parent": "narkoti:displaysettings/infenergygen.item",
+  "textures": {
+    "particle": "narkoti:block/iegtexture"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "narkoti:displaysettings/ak47.item",
+  "textures": {
+    "layer0": "narkoti:item/ak-47texturemap"
+  }
+}

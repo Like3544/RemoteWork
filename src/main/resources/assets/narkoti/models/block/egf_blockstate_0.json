@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "narkoti:block/texture4but",
+    "up": "narkoti:block/texture4toplit",
+    "north": "narkoti:block/texture4lit_e",
+    "east": "narkoti:block/texture3",
+    "south": "narkoti:block/texture3",
+    "west": "narkoti:block/texture3",
+    "particle": "narkoti:block/texture4but"
+  },
+  "render_type": "solid"
+}

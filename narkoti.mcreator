@@ -1,0 +1,3429 @@
+{
+  "mod_elements": [
+    {
+      "name": "GasFurnace",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/gas_furnace.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/gas_furnace.json",
+          "src/main/resources/assets/narkoti/models/block/gas_furnace.json",
+          "src/main/java/net/mcreator/narkoti/block/GasFurnaceBlock.java",
+          "src/main/java/net/mcreator/narkoti/block/entity/GasFurnaceBlockEntity.java",
+          "src/main/resources/assets/narkoti/blockstates/gas_furnace.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "GasFurnaceLit",
+      "type": "blockstates",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace_lit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/gas_furnace_lit_blockstate_0.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "Narkota",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "narkota",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/narkota"
+    },
+    {
+      "name": "GasFurnaceGUI",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/client/gui/GasFurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/narkoti/world/inventory/GasFurnaceGUIMenu.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "TestWorkState",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_work_state",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/TestWorkStateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "TestFuelState",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_fuel_state",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/TestFuelStateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "GasFurnacePriObnovlieniiTika",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GasFurnacePriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "FurnacesFuekProcedure",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnaces_fuek_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/FurnacesFuekProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "GasFurnaceRecipes",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace_recipes",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GasFurnaceRecipesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "H",
+      "type": "fluid",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/fluid/types/HFluidType.java",
+          "src/main/java/net/mcreator/narkoti/fluid/HFluid.java",
+          "src/main/resources/assets/narkoti/models/item/h_bucket.json",
+          "src/main/java/net/mcreator/narkoti/item/HItem.java",
+          "src/main/resources/assets/narkoti/models/block/h.json",
+          "src/main/java/net/mcreator/narkoti/block/HBlock.java",
+          "src/main/resources/assets/narkoti/blockstates/h.json"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "C",
+      "type": "fluid",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/CBlock.java",
+          "src/main/resources/assets/narkoti/models/item/c_bucket.json",
+          "src/main/java/net/mcreator/narkoti/fluid/types/CFluidType.java",
+          "src/main/resources/assets/narkoti/blockstates/c.json",
+          "src/main/resources/assets/narkoti/models/block/c.json",
+          "src/main/java/net/mcreator/narkoti/fluid/CFluid.java",
+          "src/main/java/net/mcreator/narkoti/item/CItem.java"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "Cl",
+      "type": "fluid",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/cl.json",
+          "src/main/java/net/mcreator/narkoti/fluid/ClFluid.java",
+          "src/main/java/net/mcreator/narkoti/block/ClBlock.java",
+          "src/main/resources/assets/narkoti/models/item/cl_bucket.json",
+          "src/main/resources/assets/narkoti/blockstates/cl.json",
+          "src/main/java/net/mcreator/narkoti/fluid/types/ClFluidType.java",
+          "src/main/java/net/mcreator/narkoti/item/ClItem.java"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "GasBalon",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_balon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/blockstates/gas_balon.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/GasBalonBlockEntity.java",
+          "src/main/resources/assets/narkoti/models/item/gas_balon.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/gas_balon.json",
+          "src/main/java/net/mcreator/narkoti/block/GasBalonBlock.java",
+          "src/main/resources/assets/narkoti/models/block/gas_balon.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas balon"
+    },
+    {
+      "name": "ItsWorks",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_works",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ItsWorksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "GasBalonPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_balon_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GasBalonPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas balon"
+    },
+    {
+      "name": "Alt",
+      "type": "keybind",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/network/AltMessage.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "CH4",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ch_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/CH4Block.java",
+          "src/main/resources/data/narkoti/loot_tables/blocks/ch_4.json",
+          "src/main/resources/assets/narkoti/blockstates/ch_4.json",
+          "src/main/resources/assets/narkoti/models/block/ch_4.json",
+          "src/main/resources/assets/narkoti/models/item/ch_4.json"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "C3H8",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_h_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/blockstates/c_3_h_8.json",
+          "src/main/resources/assets/narkoti/models/item/c_3_h_8.json",
+          "src/main/java/net/mcreator/narkoti/block/C3H8Block.java",
+          "src/main/resources/data/narkoti/loot_tables/blocks/c_3_h_8.json",
+          "src/main/resources/assets/narkoti/models/block/c_3_h_8.json"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "CH4PriObnovlieniiTika",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ch_4_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CH4PriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "GasBalonPriObnovlieniiTika",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_balon_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GasBalonPriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas balon"
+    },
+    {
+      "name": "FIRE_NEBROHOUD",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_nebrohoud",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/FIRE_NEBROHOUDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "ExplodeChain",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explode_chain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ExplodeChainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "CH4f",
+      "type": "fluid",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ch_4f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/CH4fItem.java",
+          "src/main/resources/assets/narkoti/models/block/ch_4f.json",
+          "src/main/java/net/mcreator/narkoti/fluid/CH4fFluid.java",
+          "src/main/java/net/mcreator/narkoti/fluid/types/CH4fFluidType.java",
+          "src/main/java/net/mcreator/narkoti/block/CH4fBlock.java",
+          "src/main/resources/assets/narkoti/blockstates/ch_4f.json",
+          "src/main/resources/assets/narkoti/models/item/ch_4f_bucket.json"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "C3H8f",
+      "type": "fluid",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3_h_8f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/c_3_h_8f.json",
+          "src/main/resources/assets/narkoti/blockstates/c_3_h_8f.json",
+          "src/main/java/net/mcreator/narkoti/fluid/C3H8fFluid.java",
+          "src/main/java/net/mcreator/narkoti/item/C3H8fItem.java",
+          "src/main/resources/assets/narkoti/models/item/c_3_h_8f_bucket.json",
+          "src/main/java/net/mcreator/narkoti/fluid/types/C3H8fFluidType.java",
+          "src/main/java/net/mcreator/narkoti/block/C3H8fBlock.java"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "Sad",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sad",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/SadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "Test",
+      "type": "command",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/command/TestCommand.java"
+        ]
+      },
+      "path": "~/narkota/blocks/gases"
+    },
+    {
+      "name": "AltModeON",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alt_mode_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/AltModeONProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    },
+    {
+      "name": "WeedBushSeeds",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/weed_bush_seeds.json",
+          "src/main/java/net/mcreator/narkoti/item/WeedBushSeedsItem.java"
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "WeedBush",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/loot_tables/blocks/weed_bush.json",
+          "src/main/java/net/mcreator/narkoti/block/WeedBushBlock.java",
+          "src/main/resources/assets/narkoti/models/block/weed_bush.json",
+          "src/main/resources/assets/narkoti/blockstates/weed_bush.json",
+          "src/main/resources/assets/narkoti/models/item/weed_bush.json"
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "WeedBushAges",
+      "type": "blockstates",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weed_bush_ages",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/weed_bush_ages_blockstate_1.json",
+          "src/main/resources/assets/narkoti/models/block/weed_bush_ages_blockstate_0.json",
+          "src/main/resources/assets/narkoti/models/block/weed_bush_ages_blockstate_2.json"
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "WeedBushSeedsPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush_seeds_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/WeedBushSeedsPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "PurpleLamp",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/PurpleLampBlock.java",
+          "src/main/resources/data/narkoti/loot_tables/blocks/purple_lamp.json",
+          "src/main/resources/assets/narkoti/models/block/purple_lamp.json",
+          "src/main/resources/assets/narkoti/blockstates/purple_lamp.json",
+          "src/main/resources/assets/narkoti/models/item/purple_lamp.json"
+        ]
+      },
+      "path": "~/narkota/blocks/deco"
+    },
+    {
+      "name": "WeedBushPriObnovlieniiTika",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/WeedBushPriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "BigFlowerPot",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/BigFlowerPotBlock.java",
+          "src/main/resources/assets/narkoti/models/block/big_flower_pot.json",
+          "src/main/resources/assets/narkoti/blockstates/big_flower_pot.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/big_flower_pot.json",
+          "src/main/resources/assets/narkoti/models/item/big_flower_pot.json"
+        ]
+      },
+      "path": "~/narkota/blocks/plants"
+    },
+    {
+      "name": "MarijuanaLeaf",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marijuana_leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/marijuana_leaf.json",
+          "src/main/java/net/mcreator/narkoti/item/MarijuanaLeafItem.java"
+        ]
+      },
+      "path": "~/narkota/items/sample/narko"
+    },
+    {
+      "name": "WeedBushPriRazrushieniiBlokaIghrokom",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush_pri_razrushienii_bloka_ighrokom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/WeedBushPriRazrushieniiBlokaIghrokomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "InfinityEnergyGeenrator",
+      "type": "animatedblock",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_energy_geenrator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/infinity_energy_geenrator.json",
+          "src/main/resources/assets/narkoti/blockstates/infinity_energy_geenrator.json",
+          "src/main/java/net/mcreator/narkoti/block/renderer/InfinityEnergyGeenratorDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/narkoti/block/renderer/InfinityEnergyGeenratorTileRenderer.java",
+          "src/main/java/net/mcreator/narkoti/block/InfinityEnergyGeenratorBlock.java",
+          "src/main/java/net/mcreator/narkoti/block/model/InfinityEnergyGeenratorDisplayModel.java",
+          "src/main/java/net/mcreator/narkoti/block/display/InfinityEnergyGeenratorDisplayItem.java",
+          "src/main/resources/assets/narkoti/models/custom/infinity_energy_geenrator_particle.json",
+          "src/main/java/net/mcreator/narkoti/block/model/InfinityEnergyGeenratorBlockModel.java",
+          "src/main/java/net/mcreator/narkoti/block/entity/InfinityEnergyGeenratorTileEntity.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/cheat"
+    },
+    {
+      "name": "IEGRightClick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ieg_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/IEGRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/cheat"
+    },
+    {
+      "name": "IEGTickUpdate",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ieg_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/IEGTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/cheat"
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/entity/BulletEntity.java"
+        ]
+      },
+      "path": "~/narkota/items/weapons/deagle"
+    },
+    {
+      "name": "Deagle",
+      "type": "animateditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deagle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/renderer/DeagleItemRenderer.java",
+          "src/main/resources/assets/narkoti/models/item/deagle.json",
+          "src/main/java/net/mcreator/narkoti/item/DeagleItem.java",
+          "src/main/java/net/mcreator/narkoti/item/model/DeagleItemModel.java"
+        ]
+      },
+      "path": "~/narkota/items/weapons/deagle"
+    },
+    {
+      "name": "DeagleShot",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deagle_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/DeagleShotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/deagle"
+    },
+    {
+      "name": "AmmoInfo",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammo_info",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/AmmoInfoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/deagle"
+    },
+    {
+      "name": "PistolAmmon",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pistol_ammon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/PistolAmmonItem.java",
+          "src/main/resources/assets/narkoti/models/item/pistol_ammon.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/used"
+    },
+    {
+      "name": "Weapon",
+      "type": "damagetype",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/damage_type/weapon.json"
+        ]
+      },
+      "path": "~/narkota/items/weapons/deagle"
+    },
+    {
+      "name": "GetPAnumber",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_p_anumber",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GetPAnumberProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons"
+    },
+    {
+      "name": "RifleAmmo",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rifle_ammo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/RifleAmmoItem.java",
+          "src/main/resources/assets/narkoti/models/item/rifle_ammo.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/used"
+    },
+    {
+      "name": "Ak47",
+      "type": "animateditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/renderer/Ak47ItemRenderer.java",
+          "src/main/resources/assets/narkoti/models/item/ak_47.json",
+          "src/main/java/net/mcreator/narkoti/item/model/Ak47ItemModel.java",
+          "src/main/java/net/mcreator/narkoti/item/Ak47Item.java"
+        ]
+      },
+      "path": "~/narkota/items/weapons/AK47"
+    },
+    {
+      "name": "Ak47shot",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Ak47shotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/AK47"
+    },
+    {
+      "name": "GetRAnumber",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_r_anumber",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GetRAnumberProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons"
+    },
+    {
+      "name": "Ak47deploy",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ak_47deploy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Ak47deployProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/AK47"
+    },
+    {
+      "name": "Prototype1",
+      "type": "animateditem",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/Prototype1Item.java",
+          "src/main/resources/assets/narkoti/models/item/prototype_1.json",
+          "src/main/java/net/mcreator/narkoti/item/model/Prototype1ItemModel.java",
+          "src/main/java/net/mcreator/narkoti/item/renderer/Prototype1ItemRenderer.java"
+        ]
+      },
+      "path": "~/narkota/items/weapons/Prototype1"
+    },
+    {
+      "name": "Prototype1Shot",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prototype_1_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Prototype1ShotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/Prototype1"
+    },
+    {
+      "name": "BatteryF",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/BatteryFItem.java",
+          "src/main/resources/assets/narkoti/models/item/battery_f.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/used"
+    },
+    {
+      "name": "BatteryE",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery_e",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/battery_e.json",
+          "src/main/java/net/mcreator/narkoti/item/BatteryEItem.java"
+        ]
+      },
+      "path": "~/narkota/items/sample/used"
+    },
+    {
+      "name": "LaserD",
+      "type": "damagetype",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/damage_type/laser_d.json"
+        ]
+      },
+      "path": "~/narkota/items/weapons/Prototype1"
+    },
+    {
+      "name": "Purple",
+      "type": "particle",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/client/particle/PurpleParticle.java",
+          "src/main/resources/assets/narkoti/particles/purple.json"
+        ]
+      },
+      "path": "~/narkota/items/weapons/Prototype1"
+    },
+    {
+      "name": "LaserBeam",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_beam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/LaserBeamProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons/Prototype1"
+    },
+    {
+      "name": "AntiLaserBlock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anti_laser_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/anti_laser_block.json",
+          "src/main/resources/assets/narkoti/models/block/anti_laser_block.json",
+          "src/main/java/net/mcreator/narkoti/block/AntiLaserBlockBlock.java",
+          "src/main/resources/assets/narkoti/blockstates/anti_laser_block.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/anti_laser_block.json"
+        ]
+      },
+      "path": "~/narkota/blocks/deco"
+    },
+    {
+      "name": "ChargeInfo",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_info",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ChargeInfoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/narkota/items/weapons"
+    },
+    {
+      "name": "RedstoneBattery",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/redstone_battery.json",
+          "src/main/resources/assets/narkoti/blockstates/redstone_battery.json",
+          "src/main/java/net/mcreator/narkoti/block/RedstoneBatteryBlock.java",
+          "src/main/resources/assets/narkoti/models/block/redstone_battery.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/redstone_battery.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/RedstoneBatteryBlockEntity.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/storages/RB"
+    },
+    {
+      "name": "EnergyLevels",
+      "type": "blockstates",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_levels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_0.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_9.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_6.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_3.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_7.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_8.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_4.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_2.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_1.json",
+          "src/main/resources/assets/narkoti/models/block/energy_levels_blockstate_5.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/storages/RB"
+    },
+    {
+      "name": "RedstoneBatteryGUI",
+      "type": "gui",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/world/inventory/RedstoneBatteryGUIMenu.java",
+          "src/main/java/net/mcreator/narkoti/client/gui/RedstoneBatteryGUIScreen.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/storages/RB"
+    },
+    {
+      "name": "ChargeV",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_v",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ChargeVProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines"
+    },
+    {
+      "name": "RedstoneBatteryOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/RedstoneBatteryOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/storages/RB"
+    },
+    {
+      "name": "RedstoneBatteryOnTickUpdate",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_battery_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/RedstoneBatteryOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/storages/RB"
+    },
+    {
+      "name": "ChargeB",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_b",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ChargeBProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/narkota/items/sample/used"
+    },
+    {
+      "name": "CableBlock",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/entity/CableBlockBlockEntity.java",
+          "src/main/resources/assets/narkoti/models/item/cable_block.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/cable_block.json",
+          "src/main/resources/assets/narkoti/models/block/cable_block.json",
+          "src/main/resources/assets/narkoti/blockstates/cable_block.json",
+          "src/main/java/net/mcreator/narkoti/block/CableBlockBlock.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyMain",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergySides",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_sides",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergySidesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyNorth",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_north",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyNorthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergySouth",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_south",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergySouthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyEast",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_east",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyEastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyWest",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_west",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyWestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyUp",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_up",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "CableForgeEnergyDown",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_forge_energy_down",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/CableForgeEnergyDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "IronCableBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_cable_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/iron_cable_block.json",
+          "src/main/resources/assets/narkoti/models/item/iron_cable_block.json",
+          "src/main/resources/assets/narkoti/blockstates/iron_cable_block.json",
+          "src/main/java/net/mcreator/narkoti/block/IronCableBlockBlock.java",
+          "src/main/resources/data/narkoti/loot_tables/blocks/iron_cable_block.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/IronCableBlockBlockEntity.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/procedures"
+    },
+    {
+      "name": "GasBalonBlockAdded",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_balon_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/GasBalonBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas balon"
+    },
+    {
+      "name": "SolarPanel1",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/solar_panel_1.json",
+          "src/main/resources/assets/narkoti/models/item/solar_panel_1.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/solar_panel_1.json",
+          "src/main/java/net/mcreator/narkoti/block/SolarPanel1Block.java",
+          "src/main/java/net/mcreator/narkoti/block/entity/SolarPanel1BlockEntity.java",
+          "src/main/resources/assets/narkoti/blockstates/solar_panel_1.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/1"
+    },
+    {
+      "name": "SolarPanelsOnTickUpdate",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panels_on_tick_update",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/SolarPanelsOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP"
+    },
+    {
+      "name": "Spl1",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spl_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Spl1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/1"
+    },
+    {
+      "name": "SolarPanel2",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/blockstates/solar_panel_2.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/solar_panel_2.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/SolarPanel2BlockEntity.java",
+          "src/main/resources/assets/narkoti/models/item/solar_panel_2.json",
+          "src/main/resources/assets/narkoti/models/block/solar_panel_2.json",
+          "src/main/java/net/mcreator/narkoti/block/SolarPanel2Block.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/2"
+    },
+    {
+      "name": "Spl2",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spl_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Spl2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/2"
+    },
+    {
+      "name": "SolarPanel3",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/solar_panel_3.json",
+          "src/main/resources/assets/narkoti/blockstates/solar_panel_3.json",
+          "src/main/java/net/mcreator/narkoti/block/SolarPanel3Block.java",
+          "src/main/resources/assets/narkoti/models/item/solar_panel_3.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/solar_panel_3.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/SolarPanel3BlockEntity.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/3"
+    },
+    {
+      "name": "Spl3",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spl_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Spl3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/3"
+    },
+    {
+      "name": "SolarPanel4",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/blockstates/solar_panel_4.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/solar_panel_4.json",
+          "src/main/resources/assets/narkoti/models/item/solar_panel_4.json",
+          "src/main/resources/assets/narkoti/models/block/solar_panel_4.json",
+          "src/main/java/net/mcreator/narkoti/block/SolarPanel4Block.java",
+          "src/main/java/net/mcreator/narkoti/block/entity/SolarPanel4BlockEntity.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/4"
+    },
+    {
+      "name": "Spl4",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spl_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Spl4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/4"
+    },
+    {
+      "name": "SolarPanel5",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solar_panel_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/solar_panel_5.json",
+          "src/main/resources/assets/narkoti/models/item/solar_panel_5.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/solar_panel_5.json",
+          "src/main/java/net/mcreator/narkoti/block/SolarPanel5Block.java",
+          "src/main/java/net/mcreator/narkoti/block/entity/SolarPanel5BlockEntity.java",
+          "src/main/resources/assets/narkoti/blockstates/solar_panel_5.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/5"
+    },
+    {
+      "name": "Spl5",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spl_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/Spl5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/SP/5"
+    },
+    {
+      "name": "EnergyLevel",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_level",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/EnergyLevelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric"
+    },
+    {
+      "name": "WeedBushOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed_bush_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/WeedBushOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/plants/weeds"
+    },
+    {
+      "name": "NightVisionHelmet",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_helmet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/NightVisionHelmetItem.java",
+          "src/main/resources/assets/narkoti/models/item/night_vision_helmet_helmet.json"
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "HelmetSlotActiveOnKeyPressed",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_slot_active_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/HelmetSlotActiveOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "HelmetSlotActive",
+      "type": "keybind",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "helmet_slot_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/network/HelmetSlotActiveMessage.java"
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "NVEDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nve_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/NVEDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "NVE",
+      "type": "overlay",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nve",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/client/screens/NVEOverlay.java"
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "ArmorTick",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ArmorTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "Ar",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ArProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Arm",
+      "type": "command",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/command/ArmCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SmeltedIronIngot",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelted_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/SmeltedIronIngotItem.java",
+          "src/main/resources/assets/narkoti/models/item/smelted_iron_ingot.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TinIngot",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/tin_ingot.json",
+          "src/main/java/net/mcreator/narkoti/item/TinIngotItem.java"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TitanIngot",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/titan_ingot.json",
+          "src/main/java/net/mcreator/narkoti/item/TitanIngotItem.java"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TinOre",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/loot_tables/blocks/tin_ore.json",
+          "src/main/resources/assets/narkoti/models/item/tin_ore.json",
+          "src/main/resources/data/narkoti/worldgen/configured_feature/tin_ore.json",
+          "src/main/resources/data/narkoti/forge/biome_modifier/tin_ore_biome_modifier.json",
+          "src/main/resources/assets/narkoti/blockstates/tin_ore.json",
+          "src/main/resources/assets/narkoti/models/block/tin_ore.json",
+          "src/main/resources/data/narkoti/worldgen/placed_feature/tin_ore.json",
+          "src/main/java/net/mcreator/narkoti/block/TinOreBlock.java"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "TitanOre",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/titan_ore.json",
+          "src/main/resources/assets/narkoti/models/block/titan_ore.json",
+          "src/main/resources/assets/narkoti/blockstates/titan_ore.json",
+          "src/main/resources/data/narkoti/worldgen/placed_feature/titan_ore.json",
+          "src/main/java/net/mcreator/narkoti/block/TitanOreBlock.java",
+          "src/main/resources/data/narkoti/worldgen/configured_feature/titan_ore.json",
+          "src/main/resources/data/narkoti/forge/biome_modifier/titan_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "SIIRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sii_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/smelted_iron_ingot_recipe.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TinIngotRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/tin_ingot.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TitanIngotRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/titan_ingot.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "SulfurDust",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/SulfurDustItem.java",
+          "src/main/resources/assets/narkoti/models/item/sulfur_dust.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "SulfurOre",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/block/SulfurOreBlock.java",
+          "src/main/resources/data/narkoti/worldgen/placed_feature/sulfur_ore.json",
+          "src/main/resources/assets/narkoti/models/item/sulfur_ore.json",
+          "src/main/resources/assets/narkoti/models/block/sulfur_ore.json",
+          "src/main/resources/data/narkoti/forge/biome_modifier/sulfur_ore_biome_modifier.json",
+          "src/main/resources/data/narkoti/worldgen/configured_feature/sulfur_ore.json",
+          "src/main/resources/assets/narkoti/blockstates/sulfur_ore.json"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "SulfurOreDrop",
+      "type": "loottable",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/loot_tables/blocks/sulfur_ore.json"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "RawTitanOre",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titan_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/item/RawTitanOreItem.java",
+          "src/main/resources/assets/narkoti/models/item/raw_titan_ore.json"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TitanOreDrop",
+      "type": "loottable",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titan_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/loot_tables/blocks/titan_ore.json"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "RawTinOre",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tin_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/item/raw_tin_ore.json",
+          "src/main/java/net/mcreator/narkoti/item/RawTinOreItem.java"
+        ]
+      },
+      "path": "~/narkota/items/sample/crafting"
+    },
+    {
+      "name": "TinOreDrop",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tin_ore_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/loot_tables/blocks/tin_ore.json"
+        ]
+      },
+      "path": "~/narkota/blocks/ores"
+    },
+    {
+      "name": "NVHRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nvh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/nvh.json"
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "EnergyArmorCrafted",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_armor_crafted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/EnergyArmorCraftedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/narkota/items/armor/NVH"
+    },
+    {
+      "name": "GasFur",
+      "type": "jeirecipetype",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_fur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/jei_recipes/GasFurRecipe.java",
+          "src/main/java/net/mcreator/narkoti/jei_recipes/GasFurRecipeCategory.java"
+        ]
+      },
+      "path": "~/JEI/categories"
+    },
+    {
+      "name": "HGasRecipe",
+      "type": "jeirecipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_gas_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/h_gas_recipe.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "CGasRecipe",
+      "type": "jeirecipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_gas_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/c_gas_recipe.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "ClGasRecipe",
+      "type": "jeirecipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cl_gas_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/cl_gas_recipe.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "GasFurInfo",
+      "type": "jeiinformation",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_fur_info",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI/categories"
+    },
+    {
+      "name": "GasFurnaceRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/gas_furnace.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas furnace"
+    },
+    {
+      "name": "GasBalonR",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_balon_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/gas_balon.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample/gas balon"
+    },
+    {
+      "name": "ElectricGasFurnace",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electric_gas_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/blockstates/electric_gas_furnace.json",
+          "src/main/java/net/mcreator/narkoti/block/ElectricGasFurnaceBlock.java",
+          "src/main/resources/assets/narkoti/models/block/electric_gas_furnace.json",
+          "src/main/java/net/mcreator/narkoti/block/entity/ElectricGasFurnaceBlockEntity.java",
+          "src/main/resources/assets/narkoti/models/item/electric_gas_furnace.json",
+          "src/main/resources/data/narkoti/loot_tables/blocks/electric_gas_furnace.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/crafting/EGF"
+    },
+    {
+      "name": "EGF",
+      "type": "blockstates",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/narkoti/models/block/egf_blockstate_0.json"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/crafting/EGF"
+    },
+    {
+      "name": "EGFGUI",
+      "type": "gui",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egfgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/client/gui/EGFGUIScreen.java",
+          "src/main/java/net/mcreator/narkoti/world/inventory/EGFGUIMenu.java"
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/crafting/EGF"
+    },
+    {
+      "name": "EGFTickUpdate",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egf_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/EGFTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/crafting/EGF"
+    },
+    {
+      "name": "EGFJEI",
+      "type": "jeirecipetype",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egfjei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/narkoti/jei_recipes/EGFJEIRecipeCategory.java",
+          "src/main/java/net/mcreator/narkoti/jei_recipes/EGFJEIRecipe.java"
+        ]
+      },
+      "path": "~/JEI/categories"
+    },
+    {
+      "name": "EnergyValue",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/EnergyValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/Electric/FE/crafting"
+    },
+    {
+      "name": "HGas",
+      "type": "jeirecipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h_gas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/h_gas.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "CGas",
+      "type": "jeirecipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_gas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/c_gas.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "ClGas",
+      "type": "jeirecipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cl_gas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/narkoti/recipes/cl_gas.json"
+        ]
+      },
+      "path": "~/JEI/recipes"
+    },
+    {
+      "name": "EGFINFO",
+      "type": "jeiinformation",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "egfinfo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/JEI/categories"
+    },
+    {
+      "name": "ProgressPercentage",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_percentage",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/narkoti/procedures/ProgressPercentageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/narkota/blocks/machines/sample"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "AltMode",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "deagle-shot",
+      "files": [
+        "deagle-shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "deagle-reload",
+      "files": [
+        "deagle-reload"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "deagle-noammo",
+      "files": [
+        "deagle-no-ammo"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ak47reload",
+      "files": [
+        "ak-47-reload"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ak47shot",
+      "files": [
+        "ak-47-shoot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "ak47deploy",
+      "files": [
+        "ak-47-deploy"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "prototype-reload",
+      "files": [
+        "prototype1-reload"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "prototype-shot",
+      "files": [
+        "prototype1-shot"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:ElectricGasFurnace",
+      "~CUSTOM:SolarPanel5",
+      "~CUSTOM:SolarPanel4",
+      "~CUSTOM:SolarPanel3",
+      "~CUSTOM:SolarPanel2",
+      "~CUSTOM:SolarPanel1",
+      "~CUSTOM:RedstoneBattery",
+      "~CUSTOM:AntiLaserBlock",
+      "~CUSTOM:GasFurnace"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:WeedBush",
+      "~CUSTOM:C3H8f",
+      "~CUSTOM:CH4f",
+      "~CUSTOM:C3H8",
+      "~CUSTOM:CH4",
+      "~CUSTOM:Cl",
+      "~CUSTOM:C",
+      "~CUSTOM:H"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:TitanOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ElectricGasFurnace",
+      "~CUSTOM:SulfurOre",
+      "~CUSTOM:TitanOre",
+      "~CUSTOM:TinOre",
+      "~CUSTOM:SolarPanel5",
+      "~CUSTOM:SolarPanel4",
+      "~CUSTOM:SolarPanel3",
+      "~CUSTOM:SolarPanel2",
+      "~CUSTOM:SolarPanel1",
+      "~CUSTOM:RedstoneBattery",
+      "~CUSTOM:AntiLaserBlock",
+      "~CUSTOM:InfinityEnergyGeenrator",
+      "~CUSTOM:BigFlowerPot",
+      "~CUSTOM:PurpleLamp",
+      "~CUSTOM:GasBalon",
+      "~CUSTOM:GasFurnace"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:IronCableBlock",
+      "~CUSTOM:CableBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SulfurOre",
+      "~CUSTOM:TinOre",
+      "~CUSTOM:PurpleLamp"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "fluid.narkoti.cl": "Cl",
+      "block.narkoti.gas_balon": "Газовый балон",
+      "item.narkoti.weed_bush_seeds": "Семена марихуаны",
+      "subtitles.deagle-noammo": "",
+      "item.narkoti.smelted_iron_ingot": "Закалённый железный слиток",
+      "item.narkoti.titan_ingot": "Титановый слиток",
+      "item.narkoti.cl_bucket": "Cl (хлор)",
+      "subtitles.ak47deploy": "",
+      "death.attack.laser_d": "%1$s уничтожен",
+      "block.narkoti.tin_ore": "Оловянная руда",
+      "jei.narkoti.gas_fur_info": "Данная печь позволяет выделять газы из предметов,\nглавное поставить Газовый балон над ней. Топливо - уголь.",
+      "item.narkoti.prototype_1": "Прототип",
+      "block.narkoti.solar_panel_3": "Солнечная панель",
+      "block.narkoti.solar_panel_2": "Солнечная панель",
+      "subtitles.ak47shot": "",
+      "block.narkoti.solar_panel_1": "Солнечная панель",
+      "jei.narkoti.egfinfo": "Принцип работы похож на Газовую печь, только вот эта\nработает в 2 раза быстрее, потребляет 1FE/тик.",
+      "death.attack.weapon.player": "%1$s был застрелен убегая от %2$s",
+      "block.narkoti.solar_panel_5": "Солнечная панель",
+      "block.narkoti.solar_panel_4": "Солнечная панель",
+      "fluid.narkoti.h": "H",
+      "block.narkoti.weed_bush": "Куст марихуаны",
+      "subtitles.prototype-reload": "",
+      "fluid.narkoti.c": "C",
+      "fluid.narkoti.c_3_h_8f": "C3H8",
+      "block.narkoti.ch_4": "CH4",
+      "item.narkoti.night_vision_helmet_helmet": "Очки ночного зрения",
+      "block.narkoti.cl": "Cl",
+      "item.narkoti.tin_ingot": "Оловянный слиток",
+      "block.narkoti.titan_ore": "Титановая руда",
+      "item.narkoti.c_3_h_8f_bucket": "Ведро пропана",
+      "item.narkoti.rifle_ammo": "Винтовочный патрон",
+      "block.narkoti.infinity_energy_geenrator": "§bНейтронный генератор§f",
+      "key.narkoti.helmet_slot_active": "Активация: Шлем",
+      "subtitles.prototype-shot": "",
+      "block.narkoti.big_flower_pot": "Большой цветочный горшок",
+      "item.narkoti.deagle": "Deagle",
+      "item.narkoti.raw_titan_ore": "Необработанная титановая руда",
+      "block.narkoti.c_3_h_8": "C3H8",
+      "block.narkoti.redstone_battery": "Простой аккамулятор",
+      "block.narkoti.electric_gas_furnace": "Электрическая газовая печь",
+      "item_group.narkoti.narkota": "Наркота",
+      "item.narkoti.c_bucket": "C (углерод)",
+      "key.narkoti.alt": "Кнопка взаимодействия true/false",
+      "block.narkoti.c": "C",
+      "death.attack.weapon.item": "%1$s был застрелен %2$s используя %3$s",
+      "subtitles.deagle-reload": "",
+      "subtitles.ak47reload": "",
+      "item.narkoti.h_bucket": "H (водород)",
+      "fluid.narkoti.ch_4f": "CH4",
+      "block.narkoti.gas_furnace": "Газовая печь",
+      "block.narkoti.h": "H",
+      "item.narkoti.ak_47": "AK-47",
+      "death.attack.laser_d.player": "%1$s уничтожен пока убегал от %2$s",
+      "item.narkoti.marijuana_leaf": "Листик марихуаны",
+      "gui.narkoti.gas_furnace_gui.label_gazovaia_piech": "Газовая печь",
+      "death.attack.weapon": "%1$s был застрелен %2$s",
+      "block.narkoti.iron_cable_block": "Железный провод",
+      "block.narkoti.ch_4f": "CH4",
+      "item.narkoti.pistol_ammon": "Пистолетный патрон",
+      "subtitles.deagle-shot": "",
+      "block.narkoti.sulfur_ore": "Серная руда",
+      "item.narkoti.raw_tin_ore": "Необработанная оловянная руда",
+      "item.narkoti.ch_4f_bucket": "Ведро метана",
+      "block.narkoti.c_3_h_8f": "C3H8",
+      "block.narkoti.purple_lamp": "Фиолетовая лампа",
+      "item.narkoti.battery_e": "Батарейка",
+      "item.narkoti.sulfur_dust": "Сера",
+      "item.narkoti.battery_f": "Батарейка",
+      "block.narkoti.cable_block": "Медный провод",
+      "block.narkoti.anti_laser_block": "Анти-лазерное покрытие",
+      "gui.narkoti.egfgui.label_eliektrichieskaia_ghazovaia_piech": "Электрическая газовая печь",
+      "death.attack.laser_d.item": "%1$s уничтожен %2$s используя %3$s",
+      "gui.narkoti.redstone_battery_gui.label_prostoi_akkamuliator": "Простой аккамулятор"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "narkota",
+        "children": [
+          {
+            "name": "blocks",
+            "children": [
+              {
+                "name": "gases",
+                "children": []
+              },
+              {
+                "name": "machines",
+                "children": [
+                  {
+                    "name": "sample",
+                    "children": [
+                      {
+                        "name": "gas furnace",
+                        "children": []
+                      },
+                      {
+                        "name": "gas balon",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "cheat",
+                    "children": []
+                  },
+                  {
+                    "name": "Electric",
+                    "children": [
+                      {
+                        "name": "FE",
+                        "children": [
+                          {
+                            "name": "storages",
+                            "children": [
+                              {
+                                "name": "RB",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "gen",
+                            "children": []
+                          },
+                          {
+                            "name": "procedures",
+                            "children": []
+                          },
+                          {
+                            "name": "crafting",
+                            "children": [
+                              {
+                                "name": "EGF",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SP",
+                        "children": [
+                          {
+                            "name": "1",
+                            "children": []
+                          },
+                          {
+                            "name": "2",
+                            "children": []
+                          },
+                          {
+                            "name": "3",
+                            "children": []
+                          },
+                          {
+                            "name": "4",
+                            "children": []
+                          },
+                          {
+                            "name": "5",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "deco",
+                "children": []
+              },
+              {
+                "name": "plants",
+                "children": [
+                  {
+                    "name": "weeds",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "ores",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "items",
+            "children": [
+              {
+                "name": "sample",
+                "children": [
+                  {
+                    "name": "narko",
+                    "children": []
+                  },
+                  {
+                    "name": "crafting",
+                    "children": []
+                  },
+                  {
+                    "name": "used",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "weapons",
+                "children": [
+                  {
+                    "name": "deagle",
+                    "children": []
+                  },
+                  {
+                    "name": "AK47",
+                    "children": []
+                  },
+                  {
+                    "name": "Prototype1",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "armor",
+                "children": [
+                  {
+                    "name": "NVH",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "adv",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "magic",
+        "children": []
+      },
+      {
+        "name": "JEI",
+        "children": [
+          {
+            "name": "categories",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "narkoti",
+    "modName": "narkoti",
+    "version": "1.0.0",
+    "author": "Like354",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.narkoti"
+  },
+  "mcreatorVersion": 202400117319
+}

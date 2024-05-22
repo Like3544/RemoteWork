@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "narkoti:block/weed_1",
+    "particle": "narkoti:block/weed_1"
+  },
+  "render_type": "cutout"
+}

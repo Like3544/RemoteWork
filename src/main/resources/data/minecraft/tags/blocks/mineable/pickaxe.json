@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "narkoti:electric_gas_furnace",
+    "narkoti:sulfur_ore",
+    "narkoti:titan_ore",
+    "narkoti:tin_ore",
+    "narkoti:solar_panel_5",
+    "narkoti:solar_panel_4",
+    "narkoti:solar_panel_3",
+    "narkoti:solar_panel_2",
+    "narkoti:solar_panel_1",
+    "narkoti:redstone_battery",
+    "narkoti:anti_laser_block",
+    "narkoti:infinity_energy_geenrator",
+    "narkoti:big_flower_pot",
+    "narkoti:purple_lamp",
+    "narkoti:gas_balon",
+    "narkoti:gas_furnace"
+  ]
+}

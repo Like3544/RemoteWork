@@ -1,0 +1,6 @@
+{
+  "parent": "narkoti:displaysettings/prototype1.item",
+  "textures": {
+    "layer0": "narkoti:item/prototype1tm"
+  }
+}

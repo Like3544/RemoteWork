@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "narkoti:block/gas_balon"
+    },
+    "facing=east": {
+      "model": "narkoti:block/gas_balon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "narkoti:block/gas_balon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "narkoti:block/gas_balon",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "narkoti:block/handler_of_crystals_buttom",
+    "up": "narkoti:block/handler_of_crystals_buttom",
+    "north": "narkoti:block/rb1",
+    "east": "narkoti:block/handler_of_crystals_buttom",
+    "south": "narkoti:block/handler_of_crystals_buttom",
+    "west": "narkoti:block/handler_of_crystals_buttom",
+    "particle": "narkoti:block/handler_of_crystals_buttom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "narkoti:displaysettings/deserteaglen.item",
+  "textures": {
+    "layer0": "narkoti:item/detexturemap"
+  }
+}
