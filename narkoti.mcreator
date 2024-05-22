@@ -3144,8 +3144,8 @@
   },
   "language_map": {
     "en_us": {
-      "block.narkoti.gas_balon": "Газовый балон",
       "fluid.narkoti.cl": "Cl",
+      "block.narkoti.gas_balon": "Газовый балон",
       "item.narkoti.weed_bush_seeds": "Семена марихуаны",
       "subtitles.deagle-noammo": "",
       "item.narkoti.smelted_iron_ingot": "Закалённый железный слиток",
